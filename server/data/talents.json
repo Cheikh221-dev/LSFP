@@ -1,0 +1,5 @@
+[
+  {"nom":"Abdoulaye Cissé","age":17,"position":"Attaquant","club":"ASC Diaraf","description":"Très rapide et technique.","videoUrl":""},
+  {"nom":"Mame Thiam","age":18,"position":"Milieu","club":"US Gorée","description":"Vision de jeu exceptionnelle.","videoUrl":"https://youtu.be/exemple"},
+  {"nom":"Ousmane Sow","age":16,"position":"Défenseur","club":"","description":"Solide et agile, bon tacle.","videoUrl":""}
+]

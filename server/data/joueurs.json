@@ -1,0 +1,10 @@
+[
+  {"nom":"Moussa N'Diaye","age":22,"poste":"Attaquant","club":{"nom":"ASC Diaraf"},"buts":5,"cartonsJaunes":2,"cartonsRouges":0},
+  {"nom":"Sadio Ba","age":24,"poste":"Milieu","club":{"nom":"US Gorée"},"buts":2,"cartonsJaunes":1,"cartonsRouges":0},
+  {"nom":"Ibrahima Fall","age":21,"poste":"Défenseur","club":{"nom":"ASC Jeanne d'Arc"},"buts":1,"cartonsJaunes":3,"cartonsRouges":0},
+  {"nom":"Oumar Diallo","age":23,"poste":"Gardien","club":{"nom":"Stade de Mbour"},"buts":0,"cartonsJaunes":0,"cartonsRouges":0},
+  {"nom":"Cheikh Sarr","age":20,"poste":"Attaquant","club":{"nom":"ASC Thiès"},"buts":3,"cartonsJaunes":1,"cartonsRouges":0},
+  {"nom":"Papa Sow","age":19,"poste":"Milieu","club":{"nom":"Guédiawaye FC"},"buts":1,"cartonsJaunes":0,"cartonsRouges":0},
+  {"nom":"Aliou Gueye","age":22,"poste":"Défenseur","club":{"nom":"Olympique de Louga"},"buts":0,"cartonsJaunes":2,"cartonsRouges":0},
+  {"nom":"Mamadou Ndiaye","age":21,"poste":"Attaquant","club":{"nom":"Tambacounda FC"},"buts":4,"cartonsJaunes":1,"cartonsRouges":0}
+]

@@ -1,0 +1,67 @@
+model Ligue {
+  id          Int      @id @default(autoincrement())
+  nom         String
+  description String?
+  clubs       Club[]
+}
+
+model Club {
+  id       Int      @id @default(autoincrement())
+  nom      String
+  logo     String?
+  ville    String?
+  ligueId  Int
+  ligue    Ligue   @relation(fields: [ligueId], references: [id])
+  joueurs  Joueur[]
+  matchsDomicile Match[] @relation("MatchDomicile")
+  matchsExterieur Match[] @relation("MatchExterieur")
+}
+
+model Joueur {
+  id        Int      @id @default(autoincrement())
+  nom       String
+  poste     String
+  age       Int
+  clubId    Int
+  club      Club     @relation(fields: [clubId], references: [id])
+  buts      Int      @default(0)
+  cartonsJaunes Int  @default(0)
+  cartonsRouges Int  @default(0)
+}
+
+model Match {
+  id             Int    @id @default(autoincrement())
+  date           DateTime
+  stade          String
+  ligueId        Int
+  ligue          Ligue   @relation(fields: [ligueId], references: [id])
+  clubDomicileId Int
+  clubExterieurId Int
+  scoreDomicile  Int?
+  scoreExterieur Int?
+  clubDomicile   Club   @relation("MatchDomicile", fields: [clubDomicileId], references: [id])
+  clubExterieur  Club   @relation("MatchExterieur", fields: [clubExterieurId], references: [id])
+}
+
+model Classement {
+  id        Int    @id @default(autoincrement())
+  ligueId   Int
+  ligue     Ligue  @relation(fields: [ligueId], references: [id])
+  clubId    Int
+  club      Club   @relation(fields: [clubId], references: [id])
+  points    Int
+  victoires Int
+  nuls      Int
+  defaites  Int
+  diffButs  Int
+}
+
+model Talent {
+  id        Int    @id @default(autoincrement())
+  nom       String
+  age       Int
+  position  String
+  club      String?
+  description String?
+  videoUrl  String?
+}

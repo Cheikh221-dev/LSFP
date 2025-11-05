@@ -1,0 +1,10 @@
+[
+  {"club":{"nom":"ASC Diaraf"},"points":12,"victoires":4,"nuls":0,"defaites":0,"diffButs":5,"ligue":{"nom":"Ligue 1"}},
+  {"club":{"nom":"US Gorée"},"points":7,"victoires":2,"nuls":1,"defaites":1,"diffButs":1,"ligue":{"nom":"Ligue 1"}},
+  {"club":{"nom":"ASC Jeanne d'Arc"},"points":5,"victoires":1,"nuls":2,"defaites":1,"diffButs":0,"ligue":{"nom":"Ligue 2"}},
+  {"club":{"nom":"Stade de Mbour"},"points":5,"victoires":1,"nuls":2,"defaites":1,"diffButs":0,"ligue":{"nom":"Ligue 2"}},
+  {"club":{"nom":"ASC Thiès"},"points":6,"victoires":2,"nuls":0,"defaites":1,"diffButs":1,"ligue":{"nom":"Nationale 1"}},
+  {"club":{"nom":"Guédiawaye FC"},"points":3,"victoires":1,"nuls":0,"defaites":2,"diffButs":-1,"ligue":{"nom":"Nationale 1"}},
+  {"club":{"nom":"Olympique de Louga"},"points":4,"victoires":1,"nuls":1,"defaites":1,"diffButs":0,"ligue":{"nom":"Nationale 2"}},
+  {"club":{"nom":"Tambacounda FC"},"points":4,"victoires":1,"nuls":1,"defaites":1,"diffButs":0,"ligue":{"nom":"Nationale 2"}}
+]
